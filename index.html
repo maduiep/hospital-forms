@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./bootstrap-5.0.1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <title>Diagnosis Input Fields</title>
 </head>
 <body>
@@ -16,7 +16,7 @@
         </div>
         <div class="outer-line"></div>
         <div class="visitation">
-            <h5>Visitation</h5>
+            <h5 style="padding-left: 2rem;">Visitation</h5>
             <hr>
         </div>
         <form action="#">
@@ -33,15 +33,21 @@
                 </div>
             </div>
         </form>
-        <div class="visitation">
-            <div class="head-float">
-                <h5>Diagnosis</h5>
+        <div class="Dutilize">
+            <div class="head-float row">
+                <div class="title col">
+                    <h5>Diagnosis</h5>
+                </div>
+                <div class="col-6">
+                    <hr>
+                </div>
+                <div class="add col">
+                    <h6 style="text-decoration: underline;"><i class="fa fa-plus"></i>Add More</h6> 
+                </div>
             </div>
-            <hr>
-            <h6 style="text-decoration: underline;"><i class="fa-solid fa-plus"></i>Add More</h6> 
         </div>
         <form action="#">
-            <div class="row g-2">
+            <div class="row g-2 add">
                 <div class="col-md">
                     <label for="diagnosis" class="form-label" style="padding-top: 1rem; padding-left: 2rem; color: rgb(129, 129, 199);">Diagnosis Code</label>
                     <div class="form-floating">
@@ -90,12 +96,18 @@
             </div>
         </form>
 
-        <div class="visitation">
-            <div class="head-float">
-                <h5>Utilizaton</h5>
+        <div class="Dutilize">
+            <div class="head-float row">
+                <div class="title col">
+                    <h5>Utilizaton</h5>
+                </div>
+                <div class="col-6">
+                    <hr>
+                </div>
+                <div class="add col">
+                    <h6 style="text-decoration: underline;"><i class="fa fa-plus"></i>Add More</h6> 
+                </div>
             </div>
-            <hr>
-            <h6 style="text-decoration: underline;"><i class="fa-solid fa-plus"></i>Add More</h6> 
         </div>
         <form action="#">
             <div class="row g-2">

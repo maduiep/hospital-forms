@@ -12,10 +12,16 @@ body {
 
 .container {
     width: 20rem;
-    min-height: 70rem;
+    min-height: 77rem;
     margin: 5rem 0 5rem 0;
     border-radius: 0.5rem;
     background-color: #fff;
+}
+
+@media screen and (min-width: 1500px) {
+    .container {
+        max-height: 125rem;
+    }
 }
 
 .header {
@@ -36,12 +42,14 @@ body {
     color: orange;
 }
 
+
 .outer-line{
     border-bottom: 1px solid #D1D1D1;
     color: rgb(228, 228, 228);
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     font-weight: bold;
     padding-top: 2.5rem;
+    margin-right: 3rem;
 }
 
 .visitation {
@@ -56,16 +64,43 @@ body {
 
 .visitation hr {
     display: block;
-    width: 55rem;
+    width: 57rem;
     border: solid 1px black !important;
     margin: 1.2rem 0 0 2.5rem;
 }
 
-
-.head-float {
-    display: flex;
+.Dutilize {
+    margin-top: 2rem;
+    margin-left: 2rem;
 }
 
+.col h6{
+    cursor: pointer;
+    color: rgba(129, 129, 199);
+}
+
+i.fa {
+    font-size: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.col h5{
+    padding-top: 0.5rem;
+}
+.col-6 {
+    margin-right: 17rem;
+}
+
+.col-6 hr {
+    width: 57rem !important;
+    border: solid 1px black !important;
+    margin-top: 1.4rem;
+    float: left;
+}
+
+h6 {
+    padding-bottom: 3rem;
+}
 
 .center-btns {
    display: flex;
