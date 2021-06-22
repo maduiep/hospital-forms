@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(245, 244, 244) !important;
+}
+
+* .form-floating{
+    width: 85% !important;
+    margin-left: 2rem;
+}
+
+.container {
+    width: 20rem;
+    height: 70rem;
+    margin: 5rem 0 5rem 0;
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    width: 10rem;
+    height: 2.5rem;
+    background-color: rgb(255, 233, 194);
+    border-bottom: 1.5px solid grey;
+    border-top-left-radius: 0.5rem;
+    position: absolute;
+    top: 5rem;
+    left: 6.45rem;
+}
+
+.header h5 {
+    padding-top: 0.3rem;
+    color: orange;
+}
+
+.outer-line{
+    border-bottom: 1px solid #D1D1D1;
+    color: rgb(228, 228, 228);
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 2.5rem;
+}
+
+.visitation {
+    margin-top: 2rem;
+    display: flex;
+}
+
+.visitation h5 {
+    font-style: bold;
+    padding-left: 1.5rem;
+}
+
+.visitation hr {
+    display: block;
+    width: 55rem;
+    border: solid 1px black !important;
+    margin: 1.2rem 0 0 2.5rem;
+}
+
+
+.head-float {
+    display: flex;
+}
+
+
+.center-btns {
+   display: flex;
+   justify-content: center;
+   margin-top: 2rem;
+}
+
+button {
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+}
