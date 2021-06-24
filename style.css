@@ -16,6 +16,7 @@ body {
     margin: 5rem 0 5rem 0;
     border-radius: 0.5rem;
     background-color: #fff;
+    position: relative;
 }
 
 @media screen and (min-width: 1500px) {
@@ -25,36 +26,37 @@ body {
 }
 
 .header {
-    display: flex;
-    justify-content: center;
-    width: 10rem;
-    height: 2.5rem;
-    background-color: rgb(255, 233, 194);
-    border-bottom: 1.5px solid grey;
-    border-top-left-radius: 0.5rem;
-    position: absolute;
+    width: 100%;
+    
+    /* position: absolute;
     top: 5rem;
-    left: 6.45rem;
+    left: 6.45rem; */
 }
 
 .header h5 {
+    position: absolute;
+    text-align: center;
     padding-top: 0.3rem;
     color: orange;
+    height: 2.5rem;
+    width: 10rem;
+    background-color: rgb(255, 233, 194);
+    border-top-left-radius: 0.5rem;
+    left: 0;
 }
 
 
 .outer-line{
-    border-bottom: 1px solid #D1D1D1;
-    color: rgb(228, 228, 228);
-    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    padding-top: 2.5rem;
-    margin-right: 3rem;
+    display: block;
+    border-bottom: 1px solid rgba(250, 250, 250, 1);
+    margin-right: 7rem;
+    padding-top: 2.48rem;
 }
 
 .visitation {
     margin-top: 2rem;
     display: flex;
+    align-items: center;
 }
 
 .visitation h5 {
@@ -65,8 +67,8 @@ body {
 .visitation hr {
     display: block;
     width: 57rem;
-    border: solid 1px black !important;
-    margin: 1.2rem 0 0 2.5rem;
+    border: solid 1px rgba(228, 228, 228, 1) !important;
+    margin: 0 0 0 2.5rem;
 }
 
 .Dutilize {
@@ -93,7 +95,7 @@ i.fa {
 
 .col-6 hr {
     width: 57rem !important;
-    border: solid 1px black !important;
+    border: solid 1px rgba(228, 228, 228, 1)!important;
     margin-top: 1.4rem;
     float: left;
 }
@@ -111,4 +113,29 @@ h6 {
 button {
     padding-left: 5rem !important;
     padding-right: 5rem !important;
+}
+
+.table-data{
+    width: 100%;
+    padding: 0 2.4rem !important;
+    display: none;
+}
+
+.table-data table{
+    width: 100%;
+}
+.table-data table tbody tr{
+    border: 1px solid #ccc;
+    height: 4rem ;
+    border-radius: 5px !important;
+    margin-top: 30px !important;
+}
+.table-data table thead tr th {
+    margin-bottom: 3rem;
+}
+.table-data table thead th{
+    padding: 0 2rem;
+}
+.table-data table tbody td{
+    padding: 0 2rem;
 }

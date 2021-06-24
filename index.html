@@ -42,10 +42,63 @@
                     <hr>
                 </div>
                 <div class="add-more col">
-                    <h6 style="text-decoration: underline;"><i class="fa fa-plus"></i>Add More</h6> 
+                    <h6 style="text-decoration: underline;" class="add-input"><i class="fa fa-plus"></i>Add More</h6> 
                 </div>
             </div>
         </div>
+
+        <!-- <form action="#">
+            <div class="row g-2 add">
+                <div class="col-md">
+                    <label for="diagnosis" class="form-label" style="padding-top: 1rem; padding-left: 2rem; color: rgb(129, 129, 199);">Diagnosis Code</label>
+                    <div class="form-floating">
+                        <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                          <option selected></option>
+                          <option value="1"></option>
+                          <option value="2"></option>
+                          <option value="3"></option>
+                        </select>
+                        <label for="floatingSelectGrid" style="padding-top: 1.6rem;">Input code</label>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <label for="diagnosis" class="form-label" style="padding-top: 1rem; padding-left: 2rem; color: rgb(129, 129, 199);">Diagnosis Description</label>
+                    <div class="form-floating">
+                        <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                          <option selected></option>
+                          <option value="1"></option>
+                          <option value="2"></option>
+                          <option value="3"></option>
+                        </select>
+                        <label for="floatingSelectGrid" style="padding-top: 1.6rem;">Select Description</label>
+                    </div>
+                </div>
+            </div>
+        </form>
+         -->
+         <!-- <form action="#">
+            <div class="row g-2">
+                <div class="col-md">
+                    <label for="diagnosis" class="form-label" style="padding-top: 1rem; padding-left: 2rem; color: rgb(129, 129, 199);">Presenting Complaint</label>
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInputGrid">
+                        <label for="floatingInputGrid" style="padding-top: 1.5rem">
+                        Input Complaint</label>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <label for="diagnosis" class="form-label" style="padding-top: 1rem; padding-left: 2rem; color: rgb(129, 129, 199);">Date</label>
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="floatingInputGrid">
+                        <label for="floatingInputGrid" style="padding-top: 1.5rem">
+                        Select Date</label>
+                    </div>
+                </div>
+            </div>
+        </form> -->
+
+        
+        <!-------- Daignosis start ------->
         <form action="#">
             <div class="row g-2 add">
                 <div class="col-md">
@@ -74,7 +127,10 @@
                 </div>
             </div>
         </form>
+        <!-------- Daignosis end ------->
 
+
+        <!-------- Presenting start ------->
         <form action="#">
             <div class="row g-2">
                 <div class="col-md">
@@ -95,6 +151,7 @@
                 </div>
             </div>
         </form>
+        <!-------- Presenting end ------->
 
         <div class="Dutilize">
             <div class="head-float row">
@@ -105,20 +162,41 @@
                     <hr>
                 </div>
                 <div class="add-more col">
-                    <h6 style="text-decoration: underline;"><i class="fa fa-plus"></i>Add More</h6> 
+                    <h6 style="text-decoration: underline;" class="addmore"><i class="fa fa-plus"></i>Add More</h6> 
                 </div>
             </div>
         </div>
-        <form action="#">
+        <div class="row g-2">
+        
+            <div class="table-data">
+                <table class="">
+                    <thead>
+                        <tr>
+                            <th>Utilizaton Category</th>
+                            <th>Doze</th>
+                            <th>Immunization</th>
+                            <th>Quantity</th>
+                            <th>Tariff Fee</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </div>
+                
+        </div>
+        <form action="#" class="form-data">
             <div class="row g-2 add">
                 <div class="col-md">
                     <label for="diagnosis" class="form-label" style="padding-top: 1rem; padding-left: 2rem; color: rgb(129, 129, 199);">Utilizaton Category</label>
                     <div class="form-floating">
-                        <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                        <select class="form-select" name="Utilizaton_Category" id="floatingSelectGrid" aria-label="Floating label select example">
                           <option selected></option>
-                          <option value="1"></option>
-                          <option value="2"></option>
-                          <option value="3"></option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
                         </select>
                         <label for="floatingSelectGrid" style="padding-top: 1.6rem;">Immunization</label>
                     </div>
@@ -126,24 +204,21 @@
                 <div class="col-md">
                     <label for="diagnosis" class="form-label" style="padding-top: 1rem; padding-left: 2rem; color: rgb(129, 129, 199);">Doze</label>
                     <div class="form-floating">
-                        <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+                        <select class="form-select" name="doze" id="floatingSelectGrid" aria-label="Floating label select example">
                           <option selected></option>
-                          <option value="1"></option>
-                          <option value="2"></option>
-                          <option value="3"></option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
                         </select>
                         <label for="floatingSelectGrid" style="padding-top: 1.6rem;">Select Doze</label>
                     </div>
                 </div>
             </div>
-        </form>
-
-        <form action="#">
             <div class="row g-2">
                 <div class="col-md">
                     <label for="diagnosis" class="form-label" style="padding-top: 1rem; padding-left: 2rem; color: rgb(129, 129, 199);">Immunization</label>
                     <div class="form-floating">
-                        <input type="email" class="form-control" id="floatingInputGrid">
+                        <input type="text" name="imunization" class="form-control" id="floatingInputGrid">
                         <label for="floatingInputGrid" style="padding-top: 1.5rem">
                         Input Immunization</label>
                     </div>
@@ -151,21 +226,23 @@
                 <div class="col-md">
                     <label for="diagnosis" class="form-label" style="padding-top: 1rem; padding-left: 2rem; color: rgb(129, 129, 199);">Quantity</label>
                     <div class="form-floating">
-                        <input type="email" class="form-control" id="floatingInputGrid">
+                        <input type="number" name="quantity" class="form-control" id="floatingInputGrid">
                         <label for="floatingInputGrid" style="padding-top: 1.5rem">
                         0.00</label>
                     </div>
                 </div>
             </div>
-        </form>
-
-        <form action="#">
             <div class="row g-2">
                 <label for="diagnosis" class="form-label" style="padding-top: 1rem; padding-left: 2rem; color: rgb(129, 129, 199);">Tariff Fee</label>
                 <div class="form-floating" style="width: 42.5% !important;">
-                    <input type="email" class="form-control" id="floatingInputGrid">
+                    <input type="number" name="tariff" class="form-control" id="floatingInputGrid">
                     <label for="floatingInputGrid" style="padding-top: 1.5rem">
                     0.00</label>
+                </div>
+            </div>
+            <div class="row g-2">
+                <div class="form-floating" style="width: 42.5% !important; margin-top: 30px;">
+                   <button type="submit"  class="btn btn-success addmore">Add New</a>
                 </div>
             </div>
         </form>
